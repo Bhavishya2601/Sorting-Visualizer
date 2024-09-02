@@ -44,8 +44,6 @@ enableNewArray=()=>{
     document.querySelector('.newArray').disabled = false
 }
 
-// remove this afterwards
-alert('Currently only selection sort works')
 
 let arraySize = document.querySelector('#size')
 arraySize.addEventListener('input', ()=>{
